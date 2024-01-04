@@ -31,3 +31,24 @@ nav {
     top: 0;
     background-color: rgba(0, 0, 0, 0.865);
 }
+
+.close {
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    font-weight: bolder;
+    font-size: 30pt;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
