@@ -25,6 +25,10 @@ header .header {
 
 nav {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
     height: 100vh;
     position: fixed;
     right: 0;
@@ -41,12 +45,6 @@ nav {
     font-size: 30pt;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;
-}
 
 li {
     list-style: none;
