@@ -45,10 +45,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     color: white;
 }
 
 li {
     list-style: none;
+}
+
+nav .links {
+    margin-left: 20%;
 }
