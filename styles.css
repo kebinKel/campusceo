@@ -7,11 +7,13 @@
 .wrapper {
     width: 100%;
     height: auto;
+    background-color: midnightblue;
 }
 
 header {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 header .header {
@@ -19,4 +21,13 @@ header .header {
     height: 100%;
     position: relative;
     object-fit: cover;
+}
+
+nav {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.762);
 }
