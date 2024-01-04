@@ -13,10 +13,11 @@
 header {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 
 header .campusceo-logo {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    object-fit: contain;
+    object-position: center;
 }
