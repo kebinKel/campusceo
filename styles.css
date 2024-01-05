@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    user-select: none;
+}
+
 .wrapper {
     position: relative;
     font-family: 'Roboto', sans-serif;
