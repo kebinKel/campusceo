@@ -50,7 +50,38 @@ nav {
     bottom: 0;
     right: 0;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.727);
+    background-color: rgba(0, 0, 0, 0.903);
     color: white;
+    padding: 12px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+.round {
+    background-color: rgba(0, 0, 0, 0.903);
+    width: 20%;
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -10%;
+    top: 3%;
+    border-radius: 50px;
+}
